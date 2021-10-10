@@ -4,17 +4,32 @@
   align-items: center;
   box-shadow: 0 0 0.5em;
   border-radius: 2px;
+  background-color: #fff;
 }
 
 .item:not(:last-child) {
   margin-bottom: 10px;
 }
 
+.online,
+.offline {
+  display: block;
+  margin: 0 10px 0 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
 .avatar {
   margin-right: 15px;
   width: 60px;
   border-radius: 5px;
-  border: solid 1px #d8e0ea;
+  border: solid 1px #cbcbcb;
 }
 
 .name {

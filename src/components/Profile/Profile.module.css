@@ -1,20 +1,26 @@
+.Profile {
+  margin-bottom: 20px;
+}
+
 .profile {
   width: 300px;
   text-align: center;
   margin: auto;
-  border: solid 1px #d8e0ea;
+  border: solid 1px #cbcbcb;
   border-radius: 5px;
 }
 
 .description {
-  padding: 15px 10px 0 10px;
+  padding: 15px 10px 30px 10px;
   max-width: 300px;
+  background-color: #fff;
 }
 
 .avatar {
+  display: inline-block;
   width: 120px;
   height: 120px;
-  border: solid 1px #d8e0ea;
+  border: solid 1px #cbcbcb;
   border-radius: 50%;
 }
 
@@ -36,7 +42,6 @@
 
 .location {
   margin-top: 10px;
-  margin-bottom: 30px;
   font-size: 16px;
   font-weight: 400;
   color: #838080;
@@ -56,7 +61,7 @@
   display: grid;
   padding: 15px 10px;
   justify-content: center;
-  border: solid 1px #d8e0ea;
+  border: solid 1px #cbcbcb;
   width: 100px;
 }
 

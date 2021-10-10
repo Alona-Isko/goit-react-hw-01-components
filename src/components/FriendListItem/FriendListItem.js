@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import styles from './FriendListItem.module.css'
 import defaultFriendImage from './friend.png';
 
 const FriendListItem = ({
@@ -7,10 +8,10 @@ const FriendListItem = ({
     isOnline,
     id
     }) => (
-        <li class="item" key={id}>
-            <span class="status"></span>
-            <img class="avatar" src={avatar} alt={name} width="70" />
-            <p class="name">{name}</p>
+    <li className={styles.item} key={id}>
+        <span className={styles.status}></span>
+            <img className={styles.avatar} src={avatar} alt={name}/>
+        <p className={styles.name}>{name}</p>
         </li>
 );
 

@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  box-shadow: 0 0 0.5em;
+  border-radius: 2px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.avatar {
+  margin-right: 15px;
+  width: 60px;
+  border-radius: 5px;
+  border: solid 1px #d8e0ea;
+}
+
+.name {
+  font-weight: 500;
+}
